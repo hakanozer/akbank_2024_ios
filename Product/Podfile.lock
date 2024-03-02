@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (5.8.1)
+  - ImagePicker (3.2.0)
+  - ImageSlideshow (1.9.2):
+    - ImageSlideshow/Core (= 1.9.2)
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/SDWebImage (1.9.2):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - ProgressHUD (13.8.6)
+  - SCLAlertView (0.8)
+  - SDWebImage (5.18.10):
+    - SDWebImage/Core (= 5.18.10)
+  - SDWebImage/Core (5.18.10)
+  - SQLite.swift (0.14.1):
+    - SQLite.swift/standard (= 0.14.1)
+  - SQLite.swift/standard (0.14.1)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.8)
+  - ImagePicker (from `https://github.com/hyperoslo/ImagePicker.git`)
+  - ImageSlideshow (~> 1.9)
+  - ImageSlideshow/SDWebImage (~> 1.9)
+  - ProgressHUD (~> 13.8.6)
+  - SCLAlertView (~> 0.8)
+  - SDWebImage (~> 5.18)
+  - SQLite.swift (~> 0.14)
+  - TextFieldEffects (~> 1.6)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageSlideshow
+    - ProgressHUD
+    - SCLAlertView
+    - SDWebImage
+    - SQLite.swift
+    - TextFieldEffects
+
+EXTERNAL SOURCES:
+  ImagePicker:
+    :git: https://github.com/hyperoslo/ImagePicker.git
+
+CHECKOUT OPTIONS:
+  ImagePicker:
+    :commit: d8a8f840380b9a28230c8fcad277adb458706d0a
+    :git: https://github.com/hyperoslo/ImagePicker.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  ProgressHUD: ee8924300accca88bfa39f6350f757c1c869a69c
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: fc8f2d48bbfd72ef39d70e981bd24a3f3be53fec
+  SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: 29bdf9a51e62b5b5b35912eb2dfb31a0354cb145
+
+COCOAPODS: 1.13.0
